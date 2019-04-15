@@ -1,4 +1,3 @@
-require 'pry'
 def clock_angle(time)
     time_elements = time.split(":")
     time_elements.map! { |string| string.to_f }
